@@ -35,7 +35,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
-    const response = await fetch('https://api.minimax.io/anthropic/v1/messages', {
+    const response = await fetch('https://api.minimaxi.com/anthropic/v1/messages', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
