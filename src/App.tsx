@@ -129,16 +129,6 @@ export default function App() {
                 <p className="text-xl text-white/80 font-light leading-relaxed whitespace-nowrap">
                   将原始 CSV 数据转化为精美、交互式的仪表盘，并提供 AI 驱动的定性分析。
                 </p>
-                <div className="flex items-center justify-center gap-3 mt-6">
-                  {['AI 驱动的分析', '支持 CSV', '快速洞察'].map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs font-bold text-white/80 bg-white/20 px-3 py-1.5 rounded-full backdrop-blur-sm"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
               </motion.div>
 
               {/* Preview Cards */}
