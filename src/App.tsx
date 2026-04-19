@@ -121,12 +121,12 @@ export default function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                className="text-center mb-10"
+                className="text-center mb-10 overflow-hidden"
               >
-                <h1 className="text-7xl font-display font-bold text-white tracking-tight mb-4">
+                <h1 className="text-[8rem] font-display font-bold text-white tracking-tight mb-4 leading-none">
                   Insight
                 </h1>
-                <p className="text-xl text-white/80 max-w-2xl mx-auto font-light leading-relaxed">
+                <p className="text-xl text-white/80 font-light leading-relaxed whitespace-nowrap">
                   将原始 CSV 数据转化为精美、交互式的仪表盘，并提供 AI 驱动的定性分析。
                 </p>
                 <div className="flex items-center justify-center gap-3 mt-6">
