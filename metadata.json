@@ -1,0 +1,5 @@
+{
+  "name": "Survey Insight",
+  "description": "A survey analysis tool that transforms CSV results into an interactive dashboard with filtering and AI-powered text summarization.",
+  "requestFramePermissions": []
+}
