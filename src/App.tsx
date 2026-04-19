@@ -161,7 +161,7 @@ export default function App() {
                 <button
                   onClick={() => fileInputRef.current?.click()}
                   disabled={isProcessing}
-                  className="flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 active:scale-95 disabled:opacity-50 disabled:pointer-events-none shadow-lg transition-all"
+                  className="flex items-center gap-2 px-8 py-4 bg-white text-slate-800 rounded-xl font-bold hover:bg-slate-100 active:scale-95 disabled:opacity-50 disabled:pointer-events-none shadow-lg transition-all"
                 >
                   <Upload className="w-5 h-5" />
                   上传数据
@@ -169,7 +169,7 @@ export default function App() {
                 <button
                   onClick={loadSampleData}
                   disabled={isProcessing}
-                  className="flex items-center gap-2 px-8 py-4 bg-white/20 text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/30 active:scale-95 disabled:opacity-50 disabled:pointer-events-none backdrop-blur-sm transition-all"
+                  className="flex items-center gap-2 px-8 py-4 bg-brand-500 text-white rounded-xl font-bold hover:bg-brand-400 active:scale-95 disabled:opacity-50 disabled:pointer-events-none shadow-lg transition-all"
                 >
                   <Sparkles className="w-5 h-5" />
                   使用示例数据
