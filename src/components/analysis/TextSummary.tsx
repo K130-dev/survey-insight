@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Loader2, AlertCircle, Quote, Copy, Check, MessageSquare } from 'lucide-react';
-import { summarizeTextStream } from '@/lib/gemini';
+import { summarizeTextStream } from '@/lib/minimax';
 import { motion } from 'motion/react';
 import ReactMarkdown from 'react-markdown';
 import { cn } from '@/lib/utils';
@@ -143,7 +143,7 @@ export const TextSummary: React.FC<TextSummaryProps> = ({ question, answers, tot
                   className="btn-primary !bg-violet-600 hover:!bg-violet-700 flex items-center gap-2 shadow-lg shadow-violet-100"
                 >
                   <Sparkles className="w-4 h-4" />
-                  使用 Gemini 分析
+                  使用 MiniMax 分析
                 </button>
               </div>
             )}
