@@ -1,20 +1,17 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Insight Banner" src="./hero.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Survey Insight
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/1a5f7401-ec82-402a-a241-521a08e5aa27
+将原始 CSV 数据转化为精美、交互式的仪表盘，并提供 AI 驱动的定性分析。
 
 ## Run Locally
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `MINIMAX_API_KEY` in [.env](.env) to your MiniMax API key
 3. Run the app:
    `npm run dev`
